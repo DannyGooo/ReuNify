@@ -7,8 +7,8 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 import experiments.temPreAnalysisHandler.ReactJSModulesCount;
-import hermesDroid.ReactUtil;
-import hermesDroid.SootConfigForAndroidRN;
+import reunify.ReactUtil;
+import reunify.SootConfigForAndroidRN;
 
 import java.io.BufferedReader;
 import soot.jimple.infoflow.android.InfoflowAndroidConfiguration;
@@ -69,7 +69,7 @@ public class DetectNumOfJSSideSize {
 
 
                 SetupApplication setupApplication = new SetupApplication(androidJars, apkPath);
-                IInfoflowConfig sootConfig = new SootConfigForAndroidRN("/your/dir/to/hbcTool-readyToUse");
+                IInfoflowConfig sootConfig = new SootConfigForAndroidRN("/your/dir/to/HermesTool");
                 setupApplication.setSootConfig(sootConfig);
 
                 InfoflowAndroidConfiguration config = setupApplication.getConfig();

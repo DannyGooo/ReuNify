@@ -23,8 +23,8 @@ import soot.jimple.toolkits.callgraph.Edge;
 import java.io.FileReader;
 import org.xmlpull.v1.XmlPullParserException;
 
-import hermesDroid.ReactModulesAndViewPreAnalysisHandler;
-import hermesDroid.ReactUtil;
+import reunify.ReactModulesAndViewPreAnalysisHandler;
+import reunify.ReactUtil;
 
 
 public class DetectNumberEdgesWithReact {

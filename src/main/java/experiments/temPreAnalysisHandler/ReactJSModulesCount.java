@@ -13,7 +13,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 import org.json.simple.JSONObject;
 
-import hermesDroid.ReactUtil;
+import reunify.ReactUtil;
 import soot.Scene;
 import soot.SootClass;
 import soot.SootMethod;
@@ -42,7 +42,7 @@ public class ReactJSModulesCount implements PreAnalysisHandler {
         result[0] = sha256;
 
         try {
-            SootClass hbcClass = hermesDroid.ReactUtil.getHbcClass();
+            SootClass hbcClass = reunify.ReactUtil.getHbcClass();
             System.out.println(hbcClass.getMethods().size());
 
             if (!ReactUtil.isReactModulesDetected) {
