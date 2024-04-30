@@ -15,3 +15,6 @@ https://github.com/DannyGooo/HermesTool
 For the hermeser module within soot please refer the the open-source projet:
 
 https://github.com/DannyGooo/HermeserSoot
+
+To evaluate the control flow recovery of the hermeser module within soot please refer the open-source project for benchmark:
+https://github.com/DannyGooo/HermesControlFlowBench
